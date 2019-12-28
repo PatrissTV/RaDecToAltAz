@@ -4,11 +4,15 @@ This JavaScript class converts equatorial coordinates (Right ascension and Decli
 ##Installation
 
 This project uses other libraries.
+
 '''
 npm i -S local-sidereal-time
 '''
+
 ##Usage
+
 In order to use it, import the RaDecToAltAz.js file first and then call the class.
+
 '''
 import RaDecToAltAz from './RaDecToAltAz.js'; 
 
