@@ -7,9 +7,9 @@ This project uses other libraries.
 
 ```
 npm i -S local-sidereal-time
-
-Then download the file named RaDecToAltAz.js.
 ```
+Then download the file named RaDecToAltAz.js or copy the code.
+
 
 ## Usage
 
