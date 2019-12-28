@@ -7,6 +7,8 @@ This project uses other libraries.
 
 ```
 npm i -S local-sidereal-time
+
+Then download the file named RaDecToAltAz.js.
 ```
 
 ## Usage
@@ -20,7 +22,8 @@ let ra = 23.45; //hours
 let dec = 16.6; //degrees
 let lat = 1.4; //degrees
 let lng = 34.1; //degrees
-
+```
+```
 let coordinates = new RaDecToAltAz(ra,dec,lat,lng);
 let alt = coordinates.getAlt();
 let az = cordinates.getAz();
