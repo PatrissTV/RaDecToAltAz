@@ -2,6 +2,7 @@
 This JavaScript class converts equatorial coordinates (Right ascension and Declination) into horizontal coordinates (Altitude and Azimuth).
 
 ##Installation
+
 This project uses other libraries.
 '''
 npm i -S local-sidereal-time
