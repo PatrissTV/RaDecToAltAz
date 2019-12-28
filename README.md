@@ -1,7 +1,7 @@
 # RaDecToAltAz
 This JavaScript class converts equatorial coordinates (Right ascension and Declination) into horizontal coordinates (Altitude and Azimuth).
 
-##Installation
+## Installation
 
 This project uses other libraries.
 
@@ -9,7 +9,7 @@ This project uses other libraries.
 npm i -S local-sidereal-time
 ```
 
-##Usage
+## Usage
 
 In order to use it, import the RaDecToAltAz.js file first and then call the class.
 
