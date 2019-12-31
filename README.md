@@ -4,7 +4,7 @@ This JavaScript class converts equatorial coordinates (Right ascension and Decli
 ## Installation
 
 ```
-npm i -S radectoaltaz
+npm i radectoaltaz
 ```
 
 ## Usage
