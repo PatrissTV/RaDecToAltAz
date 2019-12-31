@@ -3,32 +3,26 @@ This JavaScript class converts equatorial coordinates (Right ascension and Decli
 
 ## Installation
 
-This project uses other libraries.
-
 ```
-npm i -S local-sidereal-time
+npm i -S radectoaltaz
 ```
-Then download the file named RaDecToAltAz.js or copy the code.
-
 
 ## Usage
 
-In order to use it, import the RaDecToAltAz.js file first and then call the class.
+In order to use it, import the RaDecToAltAz.js file first and then call the class. Variables alt and az are the corresponding values for altitude and azimuth.
 
 ```
-import RaDecToAltAz from './RaDecToAltAz.js'; 
+let radectoaltaz = require('radectoaltaz');
 
 let ra = 23.45; //hours
 let dec = 16.6; //degrees
 let lat = 1.4; //degrees
 let lng = 34.1; //degrees
-```
-```
-let coordinates = new RaDecToAltAz(ra,dec,lat,lng);
+
+let coordinates = new radectoaltaz(ra,dec,lat,lng);
 let alt = coordinates.getAlt();
-let az = cordinates.getAz();
+let az = coordinates.getAz();
 
-//alt and az are the requested results.
+console.log(alt,az);
+
 ```
-
-You can also copy the code inside RaDecToAltAz instead of importing the class.
