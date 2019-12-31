@@ -1,4 +1,4 @@
-export default class RaDecToAltAz{
+class RaDecToAltAz{
   constructor(ra,dec,lat,lng){
     this.date = new Date();
     this.ra = ra;
@@ -35,3 +35,5 @@ export default class RaDecToAltAz{
     return az;
   }
 }
+
+module.exports
