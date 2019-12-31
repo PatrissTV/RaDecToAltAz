@@ -36,4 +36,4 @@ class RaDecToAltAz{
   }
 }
 
-module.exports
+module.exports = RaDecToAltAz;
